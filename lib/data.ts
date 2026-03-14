@@ -21,6 +21,20 @@ export const GalleryImage: GalleryImageType[] = [
         height: 768},
     {id: 2, src: "/img/img2.jpg", alt: "Caballo en paisaje brumoso", width:1024,
         height: 768},
+    {id: 3, src: "/img/img3.jpg", alt: "Guerreros peleando", width:1024,
+        height: 768},
+    {id: 4, src: "/img/img4.jpg", alt: "Caballo en paisaje brumoso", width:1024,
+        height: 768},
+    {id: 5, src: "/img/img5.jpg", alt: "Ciudad futurista con luces neón", width:1024,
+        height: 768},
+    {id: 6, src: "/img/img6.jpg", alt: "Caballo en paisaje brumoso", width:1024,
+        height: 768},
+    {id: 7, src: "/img/img7.jpg", alt: "Caballo en paisaje brumoso", width:1024,
+        height: 768},
+    {id: 8, src: "/img/img8.jpg", alt: "Ciudad futurista con luces neón", width:1024,
+        height: 768},
+    {id: 9, src: "/img/img9.jpg", alt: "Caballo en paisaje brumoso", width:1024,
+        height: 768},
     // Agregar las otras 6 imagenes
 ];
 
@@ -33,5 +47,38 @@ export const blogPost: BlogPost[] = [
         excerpt: "Cómo la IA transforma los espacios de trabajo...",
         image: {src: "/img/img7.jpg", alt:"Robot en escritorio"},
     },
-    //  Agregar las 3 entradas
+    {
+        id:2,
+        slug: "Caballo-corre-campo",
+        title: "Caballo corriendo en el campo",
+        date: "18 de abril de 2025",
+        excerpt: "Cómo los caballos se ven en libertad",
+        image: {src: "/img/img1.jpg", alt:"Caballo en paisaje brumoso"},
+    },
+    {
+        id:3,
+        slug: "Guerra",
+        title: "Guerreros en medio de una pelea",
+        date: "10 de enero de 2026",
+        excerpt: "Un campo de batalla con los guerreros peleando",
+        image: {src: "/img/img2.jpg", alt:"Guerreros peleando"},
+    },
+    {
+        id:4,
+        slug: "Caballo-corre-cmpo",
+        title: "Caballo corriendo en el campo",
+        date: "18 de abril de 2025",
+        excerpt: "Cómo los caballos se ven en libertad",
+        image: {src: "/img/img1.jpg", alt:"Caballo en paisaje brumoso"},
+    },
+    {
+        id:5,
+        slug: "Caballo-corre-cmpo",
+        title: "Caballo corriendo en el campo",
+        date: "18 de abril de 2025",
+        excerpt: "Cómo los caballos se ven en libertad",
+        image: {src: "/img/img1.jpg", alt:"Caballo en paisaje brumoso"},
+    }
+
+
 ]
