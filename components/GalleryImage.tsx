@@ -18,9 +18,9 @@ export default function GalleryImage ({ image }: {image: GalleryImageType}) {
         onMouseLeave={() => setIsHovered (false)}>
             <Image src={image.src} alt={image.alt}
             width={image.width} height={image.height}
-            sizes="(max-width:480px) 100vw, (max-width: 7968px) 50xw, 33vw"
-            className="w-full h-48 sm:h-56 lg: h-64 object-cover"/>
-            <figcaption className={`absolute inset-0 bg-gradiwnt-to-t
+            sizes="(max-width:480px) 100vw, (max-width: 768px) 50vw, 33vw"
+            className="w-full h-48 sm:h-56 lg:h-64 object-cover"/>
+            <figcaption className={`absolute inset-0 bg-gradient-to-t
             from-black/70 to-transparent flex items-end p-4
             transition-opacity ${isHovered ? 'opacity-100' : 'opacity-0'}`}>
                 <p className="text-white text-sm">{image.alt}</p>
