@@ -1,19 +1,15 @@
 // components/HeroSection.tsx
 
-// Server Component con next/image optimizado.
-// priority: true -> precarga (mejora LCP del Core Web Vitals)
-// fill + object-cover -> cubre sin distorsión
-
-import Image from "next/image";
+import Image from "next/image"
 
 interface HeroSectionProps {
-  imageSrc: string;
-  imageAlt: string;
+  imageSrc: string
+  imageAlt: string
 }
 
 export default function HeroSection({ imageSrc, imageAlt }: HeroSectionProps) {
   return (
-    <section className="relative w-full h-screen bg-gray-800 overflow-hidden">
+    <section className="relative w-full h-[280px] sm:h-[320px] lg:h-[350px] overflow-hidden">
       <Image
         src={imageSrc}
         alt={imageAlt}
@@ -23,5 +19,5 @@ export default function HeroSection({ imageSrc, imageAlt }: HeroSectionProps) {
         className="object-cover"
       />
     </section>
-  );
+  )
 }
