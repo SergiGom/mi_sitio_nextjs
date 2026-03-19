@@ -1,5 +1,1 @@
-/* app/globals.css */
-/* Directivas Tailwind: base (reset), components, utilities */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
