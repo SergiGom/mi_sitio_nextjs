@@ -15,8 +15,5 @@ export default function Gallery() {
       </div>
     </section>
   )
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fd1abb54d267e42b493470bd8c09b54948fce299
+
