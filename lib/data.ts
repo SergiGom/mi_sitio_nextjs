@@ -16,7 +16,7 @@ export const heroImage = {
     alt: "Imagen principal del sitio",
 };
 
-export const GalleryImage: GalleryImageType[] = [
+export const galleryImages: GalleryImageType[] = [
     {id: 1, src: "/img/img1.jpg", alt: "Ciudad futurista con luces neón", width:1024,
         height: 768},
     {id: 2, src: "/img/img2.jpg", alt: "Caballo en paisaje brumoso", width:1024,
