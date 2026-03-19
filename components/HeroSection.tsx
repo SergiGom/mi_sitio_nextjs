@@ -20,4 +20,6 @@ export default function HeroSection({ imageSrc, imageAlt }: HeroSectionProps) {
       />
     </section>
   )
+
 }
+
