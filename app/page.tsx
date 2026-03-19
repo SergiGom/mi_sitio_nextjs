@@ -1,24 +1,33 @@
-// app/page.tsx — Página principal (ruta: /)
-// Server Component que compone las secciones.
+// app/page.tsx
 
-import HeroSection from "@/components/HeroSection";
-import { heroImage } from "@/lib/data";
-import ContactForm from "@/components/ContactForm";
+import HeroSection from "@/components/HeroSection"
+import Gallery from "@/components/Gallery"
+import BlogSection from "@/components/BlogSection"
+import ContactForm from "@/components/ContactForm"
+import Footer from "@/components/Footer"
 
+import { heroImage } from "@/lib/data"
 
 export default function HomePage() {
   return (
     <>
-      <HeroSection imageSrc={heroImage.src} imageAlt={heroImage.alt} />
-      {/* Las demás secciones se agregarán en features posteriores */}
- 
+      {/* HERO */}
+      <HeroSection
+        imageSrc={heroImage.src}
+        imageAlt={heroImage.alt}
+      />
 
+      {/* GALERÍA */}
+      <Gallery />
 
+      {/* BLOG */}
+      <BlogSection />
 
-    <section className="mt-8 px-5 py-10">
-      <h2 className="text-2xl font-bold text-center mb-6">Contacto</h2>
-      <ContactForm/>
-    </section>
-       </>
-  );
+      {/* CONTACTO */}
+      <ContactForm />
+
+      {/* FOOTER */}
+      <Footer />
+    </>
+  )
 }
